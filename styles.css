@@ -1,0 +1,76 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body 
+{
+
+}
+
+
+.greyheader
+{
+	
+	height: 36px;
+	background-color: #373737;
+	width: 100%;
+
+}
+
+.center 
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: #b0e0e6;
+}
+
+
+.mainimage
+{
+	position: relative;
+    width: 100%;
+}
+
+.spacer
+{
+
+}
+
+.jumbotron
+{
+
+}
+
+
+.1x1
+{
+	min-width: 187px;
+	min-height: 187px;
+}
+
+.2x2
+{
+	min-width: 374px;
+	min-height: 374px;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+	background-color: #ffffff;
+    background-image: url("images/personalGRID21.jpg");
+ 	width: 1920px;
+	background: 0,0,0,0.45;
+
+ 	 padding-top: 50px;
+ 	padding-bottom: 20px;
+  
+  	height: 50%;
+	min-height: 100px !important;
+
+*/

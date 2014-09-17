@@ -8,7 +8,7 @@ html
 
 body 
 {
-
+	min-width: 700px;
 }
 
 
@@ -22,12 +22,40 @@ body
 
 .mainimage
 {
-	background-image: url('images/AirportART.jpg');
+	background-image: url('images/headerFULL.jpg');
 	background-size: 100%;
-	height: 388px;
 	background-repeat: no-repeat;
 	background-position: center;
+
+	position:relative;
+	height: 388px;
 }
+
+.darkoverlay
+{
+	height:68px;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	right:0px;
+	background-color: rgba(0,0,0,0.45);
+}
+
+.profilepic
+{
+	position: absolute;
+	background-image: url('images/profiletext.png');
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+	left: 0px;
+	bottom: 0px;
+	right:0px;
+	top: 0px;
+
+}
+
 
 
 

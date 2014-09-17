@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<title>Centering an Element on the Page</title>
+</head>
+
+
+
+
+<body>
+	<div class = "mainimage">
+
+		<div class = "profiletext">
+			<div class = "inside">
+
+			</div>
+			<div style="padding-left: 170px; margin-top: -30px; ">
+				<table>
+					<tr>
+						<td style="">
+							<a href="page2.htm" class="homeButton"></a>
+							<div style= "width: 70px;height: 0px; margin-right: 10px">
+							</div>
+						</td>
+
+						<td>
+							<a href="page2.htm" class="gridButton"></a>	
+							<div style= "width: 70px;height: 0px; margin-right: 10px">
+							</div>			            				          	
+						</td>
+
+						<td>
+							<a href="page2.htm" class="mechButton"></a>	
+							<div style= "width: 70px;height: 0px; margin-right: 10px">
+							</div>			            				          	
+						</td>
+
+						<td>
+							<a href="page2.htm" class="playButton"></a>	
+							<div style= "width: 70px;height: 0px; margin-right: 10px">
+							</div>			            				          	
+						</td>
+
+						<td>
+							<a href="page2.htm" class="mailButton"></a>	
+							<div style= "width: 70px;height: 0px; margin-right: 10px">
+							</div>			            				          	
+						</td>				
+					</tr>
+				</table>
+			</div>
+		</div>
+		
+	</div>
+
+	<div style="1x1thumb">
+	
+	</div>
+
+
+
+
+
+
+	<style>
+	.1x1thumb
+	{
+
+		width: 184px;
+		height: 184px;
+		background-image: url('images/personalGRID23');
+	}
+
+
+
+	.mailButton {
+		width: 70px;
+		height: 70px;
+		position: absolute;
+		/*border: dashed red 1px;*/
+		background-image: url('images/mailICON.png');
+
+	}
+
+	.mailButton:hover 
+	{
+		background: url('images/mailICONhover.png');
+	}
+
+	.mailButton:active 
+	{
+		background: url('images/mailICON.png');
+	}
+
+
+	.playButton {
+		width: 70px;
+		height: 70px;
+		position: absolute;
+		/*border: dashed red 1px;*/
+		background-image: url('images/playICON.png');
+
+	}
+
+	.playButton:hover 
+	{
+		background: url('images/playICONhover.png');
+	}
+
+	.playButton:active 
+	{
+		background: url('images/playICON.png');
+	}
+
+
+
+	.mechButton {
+		width: 70px;
+		height: 70px;
+		position: absolute;
+		/*border: dashed red 1px;*/
+		background-image: url('images/mechICON.png');
+
+	}
+
+	.mechButton:hover 
+	{
+		background: url('images/mechICONhover.png');
+	}
+
+	.mechButton:active 
+	{
+		background: url('images/mechICON.png');
+	}
+
+
+
+
+	.gridButton {
+		width: 70px;
+		height: 70px;
+		position: absolute;
+		/*border: dashed red 1px;*/
+		background-image: url('images/gridICON.png');
+
+	}
+
+	.gridButton:hover 
+	{
+		background: url('images/gridICONhover.png');
+	}
+
+	.gridButton:active 
+	{
+		background: url('images/gridICON.png');
+	}
+
+
+
+
+	.homeButton {
+		width: 70px;
+		height: 70px;
+		position: absolute;
+		/*border: dashed red 1px;*/
+		background-image: url('images/homeICON.png');
+
+	}
+
+	.homeButton:hover 
+	{
+		background: url('images/homeICONhover.png');
+	}
+
+	.homeButton:active 
+	{
+		background: url('images/homeICON.png');
+	}
+
+
+	.inside
+	{
+
+		position: relative;
+		margin-right: -100px;
+		background: url('images/profiletext.png') no-repeat center;
+		height: 178px;
+		width: 1445px;
+
+	}
+
+
+	.profiletext
+	{
+
+		position: absolute;
+		padding-left: 100px;
+		padding-top: 100px;
+		height: 178px;
+		width: 1445px;
+	}
+
+
+	.mainimage
+	{
+
+		width:100%; 
+		background: white url('images/headerFULL.jpg') no-repeat center;
+		/*background-size: auto 100%;*/
+
+		height: 388px;
+
+
+	}
+
+
+
+	html {
+		height: 100%;
+	}
+
+	body {
+		display: -webkit-box;   /* OLD: Safari,  iOS, Android browser, older WebKit browsers.  */
+		display: -moz-box;      /* OLD: Firefox (buggy) */
+		display: -ms-flexbox;   /* MID: IE 10 */
+		display: -webkit-flex;  /* NEW, Chrome 21–28, Safari 6.1+ */
+		display: flex;          /* NEW: IE11, Chrome 29+, Opera 12.1+, Firefox 22+ */
+
+
+		-webkit-box-pack: center; -moz-box-pack: center;
+		-ms-flex-pack: center;
+		-webkit-justify-content: center;
+		justify-content: center;
+
+		margin: 0;
+		height: 100%;
+		width: 100% /* needed for Firefox */
+	}
+
+	h1 {
+		display: -webkit-box; display: -moz-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+
+		-webkit-box-align: center; -moz-box-align: center;
+		-ms-flex-align: center;
+		-webkit-align-items: center;
+		align-items: center;
+
+		height: 10rem;
+	}
+	</style>
+</body>
+
+</html>
+
+
+
+
+
+
